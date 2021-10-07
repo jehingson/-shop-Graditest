@@ -1,6 +1,6 @@
 import Products from './products';
-
 import "./styles/index.scss";
+import file from './file'
 
 const products = new Products();
 
