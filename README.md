@@ -1,4 +1,4 @@
-# InstZoe Tienda de Moda
+# shop-Graditest
 
 ![Catura de InstZoe](.readme-static/shop.png)
 
@@ -24,4 +24,4 @@ cd client
 
 MIT
 
-This project was bootstrapped with [Create React App](https://github.com/jehingson/-shop-Graditest).
+This project was bootstrapped with [webpack scss](https://github.com/jehingson/-shop-Graditest).
