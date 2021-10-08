@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 81vw;
     margin: 0 auto;
     padding: 18px 0;
   }
@@ -58,17 +58,20 @@
   align-items: center;
   justify-content: center;
   width: 80%;
+
+  .head-title {
+    font-size: 59px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    padding: 10px 0;
+    font-family: "Fira Sans", sans-serif;
+    word-spacing: 7px;
+    color: var(--blackRussian);
+  }
 }
 .head-body-img img {
-  width: 60%;
+  height: 700px;
+  width: 300px;
+  object-fit: contain;
   margin: 0 auto;
-}
-.head-title {
-  font-size: 42px;
-  text-transform: capitalize;
-  line-height: 1.5;
-  padding: 10px 0;
-  font-family: "Fira Sans", sans-serif;
-  word-spacing: 7px;
-  color: var(--blackRussian);
 }

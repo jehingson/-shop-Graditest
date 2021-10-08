@@ -1,0 +1,36 @@
+/* featured */
+.featured-item {
+  margin-bottom: 10px;
+  > img {
+    height: 700px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  .featured-btns button {
+    background: #fff;
+    color: var(--pacificGreen);
+    margin-left: 10px;
+  }
+  .featured-btns > button:hover {
+    color: var(--pacificGreenHover);
+    border-color: var(--pacificGreenHover);
+  }
+  > div {
+    padding: 24px;
+  }
+  .featured-item-img {
+    img {
+      padding: 10px 10px;
+      height: 700px;
+      object-fit: contain;
+      margin: 0 auto;
+      background: #e6edf5;
+    }
+    img.image {
+      height: 750px;
+      border-top-right-radius: 50%;
+      border-top-left-radius: 50%;
+    }
+  }
+}
