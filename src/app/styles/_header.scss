@@ -12,6 +12,17 @@
     width: 81vw;
     margin: 0 auto;
     padding: 18px 0;
+    > div {
+      display: flex;
+      align-items: center;
+    }
+    .select-courrier {
+      border: none;
+      outline: none;
+      font-weight: bold;
+      color: var(--blackRussian);
+      font-family: "Dancing Script", cursive;
+    }
   }
 }
 .brand-name {
@@ -62,7 +73,7 @@
   .head-title {
     font-size: 59px;
     text-transform: capitalize;
-    line-height: 1.5;
+    line-height: 1;
     padding: 10px 0;
     font-family: "Fira Sans", sans-serif;
     word-spacing: 7px;
